@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    padding: 0rem 20rem;
+}
+.mb-4{
+    margin-bottom: 3rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-5{
+    margin-bottom: 12rem;
+}
+.pt-4{
+    padding-top:15rem;
+}
+/* Header */
+.btn {
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header {
+    position: relative;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+}
+.header-nav-btn__link {
+    background-color: white;
+    color: black;
+}
+.header-nav-btn__link:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.header-nav__item {
+    padding: 1.5rem;
+}
+.header-nav__item:hover .item-box__row{
+    display: block;
+}
+.header-nav__link {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-nav__list {
+    display: flex;
+}
+.item-box {
+    position: relative;
+}
+.item-box__column {
+    padding-bottom: 1rem;
+}
+.item-box__column-link {
+    color: #5c5e6c;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.item-box__row {
+    display: none;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    min-width: max-content;
+    border-radius: 15px;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+.logo {
+    max-width: 15%;
+}
+.logo-link {
+    text-decoration: none;
+}
+.logo-link__img {
+    width: 100%;
+}
+/* Header ends */
+
+/* Main */
+
+/* Thermo Section */
+#thermo{
+    background-image: url("../img/Thermo_slide1.jpg");
+    background-size: cover;
+}
+.thermo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+.thermo-content-img {
+    width: 50%;
+}
+.thermo-content-img__thermo {
+    width: 100%;
+}
+.thermo-content-info {
+    width: 40%;
+}
+.thermo-content-info__header {
+    font-size: 5rem;
+    color: white;
+}
+.thermo-content-info__title {
+    font-size: 2rem;
+    color: white;
+}
+/* Thermo section ends */
+
+/* Thermo-shop */
+.bg-text{
+    margin-top: 18rem;
+}
+.bg-txt__main-title::before{
+    content: 'Digital';
+}
+.txt-behind::before{
+    color: #F7F7F7;
+    font-size: 17rem;
+    z-index: -1;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: -143px;
+}
+.bg-txt__main-title,
+.slider-txt__main-title,
+.partner-txt__main-title,
+.service-txt__main-title,
+.news-txt__main-title{
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    color: #222222;
+    z-index: 1;
+}
+.thermo-shop-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.thermo-shop-column{
+    flex: 31%;
+}
+.thermo-shop-column-upside{
+    position: relative;
+}
+.thermo-shop-column__thermo-img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.thermo-shop-column-vertical-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 2rem;
+    max-height: 200px
+}
+.thermo-shop-column-vertical-box__link{
+    position: relative;
+}
+.thermo-shop-column-vertical-box__icon{
+    font-size: 2rem;
+    color:#222222;
+    padding: 1.5rem;
+}
+.thermo-shop-column-vertical-box__desc{
+    display: none;
+}
+.thermo-shop-column-vertical-box__link:hover .thermo-shop-column-vertical-box__desc{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+    position: absolute;
+    right: 55px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.thermo-shop-column-text-area-downside{
+    position: relative;
+    bottom: 65px;
+    width: 400px;
+    margin: 0 auto;
+}
+.thermo-shop-column-text-area-downside__title{
+    font-size: 2.2rem;
+}
+.thermo-shop-column-text-area-downside-payment{
+    display: flex;
+    justify-content: space-between;
+}
+.thermo-shop-column-text-area-downside-payment__cost{
+    font-size: 2rem;
+}
+.thermo-shop-column-text-area-downside-payment-star{
+    font-size: 1.5rem;
+}
+.thermo-shop-row__btn{
+    text-align: center;
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(0, 107, 166);
+    font-size: 1.5rem;
+}
+.btn-primary:hover{
+    background-color: #38A9E0;
+}
+/* Thermo shop section ends */
+#banner{
+    background-image: url("../img/Thermo_banner.jpg");
+    background-size: cover;
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content-header{
+    position: relative;
+}
+.banner-content__main-title,
+.subscribe-content__main-title{
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.banner-content__main-title::before{
+    content: 'Quality';
+}
+.transparent::before{
+    position: absolute;
+    right: -50%;
+    left: -10%;
+    font-size: 15rem;
+    bottom: -50%;
+    color: #567493;
+    z-index: -1;
+}
+
+.banner-content-title__txt{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.banner-conetent__btn-link{
+    background-color: white;
+    color: #2C5279;
+}
+.slider-txt__main-title::before{
+    content: 'Latest';
+}
+.slider-content-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.slider-content-column{
+    flex: 31%;
+}
+.slider-content-column-all{
+    position: relative;
+}
+.slider-content-column-all__img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.slider-content-column-all__title{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222222;
+    position: relative;
+    z-index: 1;
+    bottom: 45px;
+    padding-left: 20px;
+    transition: .3s;
+}
+.slider-content-column-all__title:hover{
+    color: #2C5279;
+}
+.slider-conetent__btn{
+    text-align: center;
+}
+#subscribe{
+    background-size: cover;
+    background-image: url("../img/subscribe-bg.jpg");
+}
+.subscribe-content__main-title::before{
+    content: 'Subscribe';
+    color: #5A5C5B;
+    right: -50%;
+    left: -20%;
+    font-size: 15rem;
+    bottom: -100%;
+}
+.banner-form{
+position: relative;
+}
+.banner-form__input{
+    font-size: 2rem;
+    padding: 2.2rem 2rem;
+    width: 50rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+}
+.btn-form{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #545253;
+    color: white;
+}
+.btn-form:hover{
+    background-color: #38A9E0;
+}
+.partner-txt__main-title::before{
+    content: 'Partner';
+}
+.partner-content-brands{
+    display: flex;
+    align-items: center;
+}
+.partner-content-brand{
+    flex: 15%;
+}
+.partner-content__txt{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #B2B2B2;
+}
+.partner-content-brand__img{
+    width: 50%;
+    filter: grayscale(1);
+    opacity: .3;
+    transition: all 300ms ease;
+}
+.partner-content-brand__img:hover{
+    width: 50%;
+    filter: grayscale(1);
+    opacity: .8;
+    transition: all 300ms ease;
+}
+.service-txt__main-title::before{
+    content: 'Benefit';
+    color: #EDF1F7;
+    left: -9px;
+    right: 0px;
+    top: -134px;
+}
+#service{
+    background-color: #F5F7FB;
+}
+.service-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-content-info{
+    flex: 48%;
+}
+.service-content-info-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.service-content-info-column{
+    flex:48%;
+}
+.service-content-info-column__img-area{
+    max-width: 8rem;
+}
+.service-content-info-column-img{
+    width: 100%;
+}
+.service-content-info-column___header{
+    font-size: 2.2rem;
+    color: #434959;
+}
+.service-content-info__patagraph{
+    font-size: 1.5rem;
+    width: 25rem;
+    color: #909191;
+    font-weight: 500;
+}
+.service-content-thermo{
+    flex:48%
+}
+.service-content-thermo-img{
+    max-width: 100%;
+}
+.news-txt__main-title::before{
+    content: 'News';
+    color: #EDF1F7;
+    left: -9px;
+    right: 0px;
+    top: -134px;
+}
+.news-txt__paragraph{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #7D7D7D;
+}
+.news-content-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.8rem;
+}
+.news-content-column{
+    flex: 31%;
+}
+.news-content-column-top{
+    
+}
+.news-content-column-bottom{
+    padding: 3rem 2rem;
+}
+.news-content-column-top__img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.news-content-column-bottom__header{
+    font-size: 3rem;
+    color: #223441;
+    letter-spacing: .2rem;
+}
+.news-content-column-bottom__paragraph{
+    font-size: 1.8rem;
+    color:  #606060;
+}
+.news-content-column-bottom__link{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgba(34, 52, 65, 1);
+    font-weight: 600;
+}
