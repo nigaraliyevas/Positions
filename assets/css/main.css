@@ -14,11 +14,17 @@
 .mb-2{
     margin-bottom: 2rem;
 }
+.mb-1{
+    margin-bottom: 1rem;
+}
 .mb-5{
     margin-bottom: 12rem;
 }
 .pt-4{
     padding-top:15rem;
+}
+.mt-8{
+    margin-top: 10rem;
 }
 /* Header */
 .btn {
@@ -470,4 +476,150 @@ position: relative;
     text-decoration: none;
     color: rgba(34, 52, 65, 1);
     font-weight: 600;
+}
+.footer{
+    
+}
+.footer-bg{
+    background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('https://clinika.modeltheme.com/wp-content/uploads/2020/09/Clinika-footer2-scaled.jpg');
+  background-size: cover;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    /* background-image: url("../img/Clinika-footer2-scaled.png"); */
+}
+.footer-top__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.footer-top{
+    margin-top: 28rem;
+}
+.column-content{
+    display: flex;
+    justify-content: space-between;
+}
+.column-content__box:not(:first-child){
+    margin-left: 2rem;
+}
+.column-content__box-main-title,.column-subscribe__main-title{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.column-content__row{
+    list-style: none;
+}
+.column-content__column-link{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+}
+.column-subscribe{
+    
+}
+.column-subscribe__subtitle,.footer-copyright__title{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.column-subscribe__form-input{
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+    width: 50rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+}
+.column-subscribe__form-area{
+    position: relative;
+}
+.footer-logo{
+    width: 18rem;
+}
+.footer-logo__img{
+    width: 100%;
+}
+.footer-bottom__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+.footer-bottom__column{
+    width: 40%;
+}
+.column-content__column{
+    padding: .5rem .5rem .5rem 0;
+    line-height: 1.3;
+}
+.footer-copyright{
+}
+.column-content__box{
+}
+.column-subscribe__form-input{
+    position: relative;
+}
+.column-subscribe__form-input-btn{
+    background-color: #535353;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    bottom: 4px;
+    border: none;
+    padding: 1.5rem;
+    transition: .3s;
+}
+.column-subscribe__form-input-btn:hover{
+    background-color:#38A9E0;
+}
+.column-subscribe__form-input--btn{
+    font-size: 2rem;    
+    color: white;
+}
+.footer-top__row--line{
+    position: relative;
+}
+.footer-top__row--line::before{
+    content: "";
+    border-left: 1px solid white;
+    font-size: 15rem;
+    position: absolute;
+    left: 50%;
+    height: 20rem;
+}
+.column-subscribe__social-title{
+    font-size: 2rem;
+    color: white;
+}
+.column-subscribe__social-icon{
+    font-size: 1.5rem;
+    color: white;
+}
+.column-subscribe__social-list{
+    display: flex;
+    list-style: none;
+}
+.column-subscribe__social-item{
+    border-radius: 50%;
+    padding: 1rem;
+    transition: .3s;
+}
+.column-subscribe__social-item:hover{
+    background-color: #38A9E0;
+}
+.column-subscribe__social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
